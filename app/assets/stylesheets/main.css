@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    font-size: 13px;
+    margin: 5px;
+    font-weight: normal;
+}
+
+div {
+    margin: 30px;
+}
