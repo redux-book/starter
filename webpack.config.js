@@ -42,7 +42,7 @@ const config = {
     // Do not output to dist if there are errors
     new webpack.NoErrorsPlugin(),
 
-    // Pass environment variable to frontend scipts
+    // Pass environment variable to frontend scripts
     new webpack.DefinePlugin({
       $_ENVIRONMENT: JSON.stringify(appEnv),
       // We must envify CommonJS builds:
