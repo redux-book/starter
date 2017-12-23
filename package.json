@@ -1,37 +1,19 @@
 {
-  "name": "redux-book-starter",
+  "name": "redux-book-started",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample Redux Application",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --progress",
-    "build": "NODE_ENV=production node node_modules/webpack/bin/webpack.js -p --progress"
+    "start": "webpack-dev-server --hot --progress"
   },
   "author": "Boris Dinkevich & Ilya Gelman",
   "license": "MIT",
   "dependencies": {
-    "redux": "3.6.0"
+    "jquery": "3.2.1",
+    "redux": "3.7.2"
   },
   "devDependencies": {
-    "autoprefixer": "6.3.3",
-    "babel-core": "6.4.5",
-    "babel-loader": "6.2.1",
-    "babel-plugin-rewire": "1.0.0-beta-5",
-    "babel-plugin-transform-runtime": "6.5.2",
-    "babel-preset-es2015": "6.3.13",
-    "babel-runtime": "6.6.1",
-    "babel-template": "6.6.5",
-    "bundle-loader": "0.5.4",
-    "clean-webpack-plugin": "0.1.6",
-    "css-loader": "0.23.1",
-    "expose-loader": "0.7.1",
-    "file-loader": "0.8.5",
-    "html-webpack-plugin": "1.7.0",
-    "normalize.css": "4.0.0",
-    "style-loader": "0.13.1",
-    "url-loader": "0.5.7",
-    "webpack": "1.12.12",
-    "webpack-dev-server": "1.14.1",
-    "worker-loader": "0.7.0"
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.9.7"
   }
 }

@@ -1,15 +1,9 @@
-import 'normalize.css/normalize.css';
-import 'assets/stylesheets/main.css';
 import { createStore } from 'redux';
 
-const reducer = (state, action) => {
-  switch (action.type) {
-    case 'INC':
-      return state + 1;
-  }
-
-  return state;
-};
+const reducer = (state, action) =>
+	action.type === 'INC'
+		? state + 1
+		: state;
 
 const initialState = 0;
 
